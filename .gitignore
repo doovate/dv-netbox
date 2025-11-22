@@ -1,7 +1,6 @@
 *.sql.gz
 .netbox
 .python-version
-docker-compose.override.yml
 *.pem
 configuration/*
 !configuration/configuration.py
@@ -12,3 +11,4 @@ configuration/ldap/*
 !configuration/logging.py
 !configuration/plugins.py
 super-linter.log
+/.idea/
