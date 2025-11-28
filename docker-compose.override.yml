@@ -1,5 +1,12 @@
-version: '3.4'
 services:
   netbox:
+    image: netbox:latest-plugins
+    pull_policy: never
     ports:
       - 9100:8080
+    build:
+      context: .
+      dockerfile: Dockerfile-Plugins
+  netbox-worker:
+    image: netbox:latest-plugins
+    pull_policy: never
