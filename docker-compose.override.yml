@@ -2,6 +2,7 @@ services:
   netbox:
     image: netbox:latest-plugins
     pull_policy: never
+    user: "root:root"
     ports:
       - 9100:8080
     build:
@@ -10,3 +11,4 @@ services:
   netbox-worker:
     image: netbox:latest-plugins
     pull_policy: never
+    user: "root:root"
