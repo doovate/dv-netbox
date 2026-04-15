@@ -6,6 +6,7 @@
 
 PLUGINS = [
     "netbox_dns",
+    'netbox_custom_objects',
 ]
 
 # PLUGINS_CONFIG = {

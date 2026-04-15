@@ -1,1 +1,2 @@
 netbox-plugin-dns
+netboxlabs-netbox-custom-objects
